@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Paulista</title>
+    <style>
+        body {
+            font-family: monospace;
+            background-color: #f5f5f5;
+            color: #333333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ff9966;
+            color: #333333;
+            text-align: center;
+            padding: 20px 0;
+        }
+        header h1 {
+            margin: 5px 0;
+        }
+        .container {
+            text-align: center;
+            margin-top: 50px;
+        }
+        .blog-post {
+            margin-bottom: 20px;
+            padding: 10px;
+            border-bottom: 1px solid #cccccc;
+        }
+        .blog-post h2 {
+            margin-bottom: 5px;
+        }
+        .blog-post p {
+            margin-top: 5px;
+        }
+        .blog-post .date-time {
+            color: #666666;
+            font-size: 12px;
+            margin-top: 10px;
+        }
+        footer {
+            background-color: #333333;
+            color: #f5f5f5;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        nav {
+            text-align: center;
+            margin-top: 20px;
+        }
+        button {
+            background-color: #333333;
+            color: #f5f5f5;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            margin: 0 20px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #ff9966;
+            color: #333333;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Blog</h1>
+</header>
+
+<nav>
+    <button onclick="location.href='index.html';">Home</button>
+</nav>
+
+<div class="container">
+    <div class="blog-post">
+        <h2>Blog Post Title 1</h2>
+        <p>This is the content of the first blog post.</p>
+        <div class="date-time">Date: January 1, 2024</div>
+    </div>
+    <hr style="width: 50%; margin: auto;">
+    <div class="blog-post">
+        <h2>Blog Post Title 2</h2>
+        <p>This is the content of the second blog post.</p>
+        <div class="date-time">Date: February 15, 2024</div>
+    </div>
+    <hr style="width: 50%; margin: auto;">
+    <div class="blog-post">
+        <h2>Blog Post Title 3</h2>
+        <p>This is the content of the third blog post.</p>
+        <div class="date-time">Date: March 20, 2024</div>
+    </div>
+    <hr style="width: 50%; margin: auto;">
+    <!-- Add more blog posts as needed -->
+</div>
+
+<footer>
+    &copy; 2024 Heitor "Paulista"
+</footer>
+
+</body>
+</html>
