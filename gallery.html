@@ -49,22 +49,29 @@
             bottom: 0;
             width: 100%;
         }
-        nav {
-            text-align: center;
-            margin-top: 20px;
-        }
-        button {
-            background-color: #333333;
-            color: #f5f5f5;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
+        nav a {
+            color: #0aa;
             text-decoration: none;
             margin: 0 20px;
-            cursor: pointer;
         }
-        button:hover {
-            background-color: #ff9966;
+        nav a:hover {
+            color: #0cc;
+        }
+        .container {
+            text-align: center;
+            margin-top: 50px;
+        }
+        .home-link {
+            display: inline-block;
+            background-color: #0aa;
+            color: #f5f5f5;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            margin: 10px;
+        }
+        .home-link:hover {
+            background-color: #0dd;
             color: #333333;
         }
     </style>
@@ -74,11 +81,11 @@
 <header>
     <h1>Map Gallery</h1>
 </header>
-
+    
 <nav>
-    <button onclick="location.href='index.html';">Home</button>
+    <a href="index.html" class="home-link">Gallery</a>
 </nav>
-
+    
 <div class="container">
     <div class="gallery-item">
         <img src="Gallery/image1.jpg" alt="Image 1">
