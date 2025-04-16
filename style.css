@@ -1,0 +1,52 @@
+/* G.L.O.S.S.-inspired style */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #222;
+  }
+  
+  header {
+    background-color: #005555;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  nav a {
+    margin: 0 1rem;
+    color: #99ffff;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
+  .card, .blog-post {
+    background: white;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+  
+  .card a {
+    display: inline-block;
+    margin-top: 0.5rem;
+    color: #005555;
+  }
+  
+  footer {
+    text-align: center;
+    font-size: 0.9rem;
+    background-color: #eeeeee;
+    padding: 1rem;
+    border-top: 1px solid #ccc;
+  }
+  
